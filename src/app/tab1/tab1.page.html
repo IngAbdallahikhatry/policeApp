@@ -1,0 +1,56 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+   
+    <img  id="{{'HOME.rac' | translate }}"   src="assets/images/logoPoliceM.png">
+  
+    <h1 class="{{'HOME.rac' | translate }}">{{'HOME.title' | translate }}</h1>
+ 
+<ion-icon class="icN{{'HOME.rac' | translate }}" (click)="lngs($event)" name="ellipsis-vertical-outline"  style="height: 30px; width: 15px;"></ion-icon>
+</ion-toolbar>
+</ion-header>
+
+<ion-content>
+<div class="global">
+<div class="case" (click)="goFormulaire()">
+  <ion-icon name="notifications" class="styleIcon"></ion-icon>
+
+  <h1 >{{'HOME.Form.titre' | translate }}</h1>
+</div>
+
+
+<div class="case" (click)="Avis()">
+  <ion-icon name="chatbox-ellipses" class="styleIcon"></ion-icon>
+     <h1 >{{'HOME.home.titreAv' | translate }}</h1>
+</div>
+
+<div class="case" (click)="ListeComus()">
+  <ion-icon name="barcode" class="styleIcon"></ion-icon>
+  
+  <h1 >{{'HOME.home.cmsrs' | translate }}</h1>
+</div>
+<div class="case" (click)="delil()">
+  <ion-icon name="receipt" class="styleIcon"></ion-icon>
+  
+  <h1 >{{'HOME.home.mbls' | translate }}</h1>
+</div>
+<!-- *ngIf="distance !='' -->
+<div class="case2" *ngIf="display==true">
+  <ion-spinner name="lines"  ></ion-spinner>
+</div>
+
+<div class="case1" (click)="windcart(sorted[0])" [hidden]="display">
+  <ion-icon name="map" class="styleIc" ></ion-icon>
+  
+  <h1 >{{'HOME.home.cmsrs1' | translate }}</h1>
+  <h3 > {{nom}}</h3>
+  <h3 >{{'HOME.home.dist' | translate }}:{{dist}} ({{'HOME.Form.kil' | translate }})</h3>
+  <h3 >{{'HOME.Form.telephone' | translate }}: {{phone}}</h3>
+</div>
+
+<!-- <div class="case" (click)="NumComus()">
+  <ion-icon name="call" class="styleIcon" ></ion-icon>
+  <h1 >أرقام المفوضيات</h1>
+</div> -->
+
+</div>
+</ion-content>

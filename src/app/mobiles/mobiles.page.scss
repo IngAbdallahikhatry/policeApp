@@ -1,0 +1,193 @@
+
+@font-face {   
+    font-family: 'Varela';    //This is what we are going to call
+    src: url('/assets/Amiri/Amiri-Bold.ttf');
+  }
+  
+
+  .content{
+    background: #f4f5f8;
+    margin: 3% 8%;
+  
+    box-shadow: 0px 1px 0px 0px #4fa432;
+    border-radius: 14px;
+    padding: 3px 9px 0px 0px;;
+    
+  }
+  .phonear {
+     text-align: right;
+      color: black;
+     
+  }
+  .libellear{
+    font-weight: bold;
+    top: 40%;
+    /* margin: 6px; */
+    color: black;
+    text-align: right;
+  }
+
+  .phonefr {
+    text-align: left;
+     color: black;
+     margin-left: 7px;
+    
+ }
+ .libellefr{
+   font-weight: bold;
+   top: 40%;
+   /* margin: 6px; */
+   color: black;
+   text-align: left;
+   margin-left: 7px;
+ }
+  
+  .pos{
+    /* margin: 6px; */
+    color: black;
+    text-align: right;
+  }
+  
+  .ic{
+    margin: 14px 10px 6px 30px;
+    position: absolute;
+    color: #000000;
+  }
+  
+  .retour{
+    float: left;
+    width: 35px;
+    margin: 12px;
+  }
+  .foot{
+    background-color: red;
+    width: 100%;
+    padding: 0% 10%;
+    height: 10%;
+    text-align: center
+  }
+  .titrH1{
+  
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Varela';
+  }
+    .test1{
+      color: #f5f6f9;
+      height: 11%;
+      width: 80%;
+      border-radius: 10px;
+      box-shadow: 1px 1px 1px 1px;
+      box-shadow: 7px red;
+      box-shadow: 2px 2px -4px 2px black;
+      background: #fff;
+       position: absolute; 
+      margin: -12% 10% 0% 10%;
+    }
+  
+  
+  
+    #header_logo {
+      width: 35px;
+   
+      margin-right: 5px;
+      float: right;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      float: right;
+    }
+  
+
+    #ar{
+      width: 35px;
+   
+      margin-right: 5px;
+      float: right;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      float: right;
+    }
+  
+    #fr{
+      width: 35px;
+   
+      margin-right: 5px;
+      float: left;
+      margin-top: 5px;
+      margin-bottom: 5px;
+   
+    }
+  
+    #en{
+      width: 35px;
+   
+      margin-right: 5px;
+      float: left;
+      margin-top: 5px;
+      margin-bottom: 5px;
+     
+    }
+  
+    .icNar{
+      float: left;
+      margin-top: 14px;
+      margin-left: 5px;
+  
+    }
+  
+    .icNfr{
+      float: right;
+      margin-right: -313px;
+      margin-top: 14px;
+    }
+  
+    .icNen{
+      float: right;
+      margin-right: -290px;
+      margin-top: 14px;
+    }
+  
+    ion-toolbar{
+      --background: #f5f6f9;
+      border-bottom: 1px solid #008a37;
+    }
+  
+    .h{
+      color: black;
+      font-size: 22px;
+      margin-right: 2px;
+      float: right;
+      font-family: Varela;
+    }
+
+
+    .ar{
+      color: black;
+      font-size: 22px;
+      margin-right: 2px;
+      float: right;
+      font-family: Varela;
+    }
+  
+    h1.fr{
+      color: black;
+      font-size: 17px;
+      margin-right: 24px;
+      float: right;
+      font-family: Varela;
+    }
+  
+  
+    h1.en{
+      color: black;
+      font-size: 17px;
+      margin-right: 90px;
+      float: right;
+      font-family: Varela;
+    }
+  
+  
+  
+  /////////////////////////@at-root
+  
+  

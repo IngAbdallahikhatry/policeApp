@@ -1,0 +1,39 @@
+
+.alert-wrapper {
+    background: #e5e5e5;
+  }
+  
+  /* Works - pass "my-custom-class" in cssClass to increase specificity */
+  .my-custom-class .alert-wrapper {
+    background: #e5e5e5;
+  }
+
+  .my-custom-class {
+    --background: #e5e5e5;
+  }
+
+  .alert-wrapper.sc-ion-alert-md {
+    border-radius: 4px;
+    -webkit-box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+    width: 60%;
+    height: 146px;
+}
+
+.alert-message.sc-ion-alert-md {
+    max-height: 240px;
+    font-size: 24px;
+    color: #71b103;
+}
+
+
+.alert-button.sc-ion-alert-md {
+    padding-left: unset;
+    padding-right: unset;
+    -webkit-padding-start: 10px;
+    padding-inline-start: 10px;
+    -webkit-padding-end: 10px;
+    padding-inline-end: 10px;
+    background-color: #71b103;
+    color: white;
+}

@@ -1,0 +1,51 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content padding>
+  
+
+
+
+  <div  *ngFor=" let item of mydata">
+ 
+
+
+    <ion-list >
+      <ion-item-sliding>
+        <ion-item>
+          
+          <img src="'localhost:8000' + {{item.image}}" *ngIf="item.img != 'N/A'">
+          <h2> {{item.description}} </h2>
+          <h2> {{item.phone}} </h2>
+        </ion-item>
+        <ion-item-options side="start">
+          
+   
+        </ion-item-options>
+        <ion-item-options side="end">
+          <button ion-button color="danger"  (click)="onDelete(item.id)">
+            <ion-icon name="trash"></ion-icon>
+            Delete
+          </button>
+        </ion-item-options>
+      </ion-item-sliding>
+    </ion-list>
+  
+  </div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ion-content>

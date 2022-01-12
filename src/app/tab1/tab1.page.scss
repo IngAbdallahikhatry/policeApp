@@ -1,0 +1,180 @@
+@font-face {   
+  font-family: 'Varela';    //This is what we are going to call
+  src: url('/assets/Amiri/Amiri-Bold.ttf');
+}
+
+
+
+#header_logo {
+  width: 35px;
+ 
+    margin-right: 5px;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: right;
+  }
+
+  #ar{
+    width: 35px;
+ 
+    margin-right: 5px;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: right;
+  }
+
+  #fr{
+    width: 35px;
+ 
+    margin-right: 5px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ 
+  }
+
+  #en{
+    width: 35px;
+ 
+    margin-right: 5px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+  }
+
+  .icNar{
+    float: left;
+    margin-top: 14px;
+    margin-left: 5px;
+
+  }
+
+  .icNfr{
+    float: right;
+    margin-right: -313px;
+    margin-top: 14px;
+  }
+
+  .icNen{
+    float: right;
+    margin-right: -290px;
+    margin-top: 14px;
+  }
+
+.styleIc{
+  height: 40px; 
+  width: 20px;
+  border-radius: 50px; 
+  color:#f5f6f9;
+  padding: 0px 10px 0px 10px;
+  background-color: #3171e3;
+  margin-top: 12px;
+}
+  ion-toolbar{
+    --background: #f5f6f9;
+    border-bottom: 1px solid #008a37;
+  }
+
+  .h{
+    color: black;
+    font-size: 22px;
+    margin-right: 2px;
+    float: right;
+    font-family: Varela;
+  }
+
+
+  .ar{
+    color: black;
+    font-size: 22px;
+    margin-right: 2px;
+    float: right;
+    font-family: Varela;
+  }
+
+  h1.fr{
+    color: black;
+    font-size: 17px;
+    margin-right: 24px;
+    float: right;
+    font-family: Varela;
+  }
+
+
+  h1.en{
+    color: black;
+    font-size: 17px;
+    margin-right: 90px;
+    float: right;
+    font-family: Varela;
+  }
+
+
+
+  .global {
+    //border: 1px solid blue;
+}
+.case {
+  border: 1px solid #dededeab;
+  width: 45%;
+  float: left;
+  margin-top: 16%;
+  margin-left: 3.2%;
+  text-align: center;
+  border-radius: 11px;
+  box-shadow: 0px 2px 0px 0px #23252230;
+}
+
+  
+ 
+
+.case1{
+  border: 1px solid #dededeab;
+  width: 92%;
+  height: 234px;
+  float: left;
+  margin-top: 16%;
+  margin-left: 3.2%;
+  text-align: center;
+  border-radius: 11px;
+  box-shadow: 0px 2px 0px 0px #23252230;
+}
+
+.case2{
+  
+  width: 92%;
+  height: 234px;
+  float: left;
+  margin-top: 16%;
+  margin-left: 3.2%;
+  text-align: center;
+ 
+}
+  .case h1 {
+    font-size: 20px !important;
+    font-family: Varela;
+    margin-top: 5px;
+}
+
+
+.case1 h1{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.styleIcon{
+  height: 50px; 
+  width: 20px;
+  border-radius: 50px; 
+  color:#f5f6f9;
+  padding: 0px 10px 0px 10px;
+  background-color: #3171e3;
+  margin-top: 12px;
+}
+
+h3{
+  font-size: 18px;
+}

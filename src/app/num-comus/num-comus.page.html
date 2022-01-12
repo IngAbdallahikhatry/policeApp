@@ -1,0 +1,44 @@
+
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+   
+    <img  id="header_logo"   src="assets/images/logoPoliceM.png">
+  
+    <h1 class="h">الإدارة العامة للأمن الوطني</h1>
+
+    <ion-icon name="ellipsis-vertical-outline" slot="start" style="height: 30px; width: 15px;"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <h1  class="titrH1">Les Numero des commissariats</h1>
+  <ion-card  *ngFor=" let item of mydata" class="content">
+ 
+    
+
+    <div class="libelle">
+     المفوضية:   {{item.libelle}}
+    </div> <br>
+    <div class="phone">
+     الهاتف: {{item.phone}}
+     </div> 
+    
+  
+
+  </ion-card>
+    
+</ion-content>
+
+
+<ion-footer class="foot" style="background-color: #fff;">
+  <div class="ic">
+ <ion-icon name="chevron-back-circle-outline"  (click)="back()"></ion-icon>
+</div>
+</ion-footer>
+
+
+
+
+
+

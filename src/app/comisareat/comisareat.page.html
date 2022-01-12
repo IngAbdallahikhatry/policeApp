@@ -1,0 +1,49 @@
+
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+   
+  
+  
+    <img  id="{{'HOME.rac' | translate }}"   src="assets/images/logoPoliceM.png">
+  
+    <h1 class="{{'HOME.rac' | translate }}">{{'HOME.title' | translate }}</h1>
+ 
+<ion-icon class="icN{{'HOME.rac' | translate }}" (click)="lngs($event)" name="ellipsis-vertical-outline"  style="height: 30px; width: 15px;"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" >
+  <img  class="retour"   src="assets/images/Image1.png" (click)="back()">
+
+  <h1  class="titrH1">{{'HOME.home.cmsrs' | translate }}</h1>
+  <ion-card  *ngFor=" let item of sorted" class="content" (click)="windcart(item)">
+ 
+    
+
+    <div  id="libelle{{'HOME.rac' | translate }}">
+      {{item.Nom}}
+    </div> <br>
+    <div id="phone{{'HOME.rac' | translate }}">
+
+
+      {{'HOME.Form.telephone' | translate }} : {{item.phone}}
+     </div> 
+     <br>
+    <div id="pos{{'HOME.rac' | translate }}">
+       {{'HOME.Form.pos' | translate }}:<img  style="width:20px"   src="assets/images/location.png" (click)="windcart(item)">
+     </div> 
+    
+  
+
+  </ion-card>
+    
+</ion-content>
+
+
+
+
+
+
+
+
+

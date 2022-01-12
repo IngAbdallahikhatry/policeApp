@@ -1,0 +1,317 @@
+
+@font-face {   
+  font-family: 'Varela';    //This is what we are going to call
+  src: url('/assets/Amiri/Amiri-Bold.ttf');
+}
+.formul{
+  
+  margin: 0px 60px;
+  
+}
+
+.cadre{
+  margin: 10px;
+    position: relative;
+    /* top: 3px; */
+    /* bottom: 0px; */
+    width: 94%;
+    border: 1px solid #e2d6d6;
+   
+    
+ }
+
+ .glob{
+ 
+   
+ }
+
+ .cadre1{
+  margin: 0px 10px;
+  position: relative;
+  /* top: 3px; */
+  /* bottom: 0px; */
+  width: 94%;
+  border: 1px solid #e2d6d6;
+ }
+
+ion-list{
+  bottom:0px
+}
+
+
+ .ic{
+  margin: 14px 10px 6px 30px;
+  position: absolute;
+  color: #000000;
+}
+
+.foot{
+  background-color: red;
+  width: 100%;
+  padding: 0% 10%;
+  height: 10%;
+  text-align: center
+
+}
+
+
+
+.parent-div {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.parent-div input[type=file] {
+  left: 0;
+  top: 0;
+  opacity: 0;
+  position: absolute;
+  font-size: 90px;
+  margin:10px 10px 0px 10px;
+}
+.btn-upload {
+  background-color: #fff;
+  border: 1px solid #e2d6d6;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 9px;
+  font-weight: bold;
+  width: 120px;
+  height: 30px;
+  margin:10px 10px 0px 10px;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+  
+}
+
+
+
+.tel{
+  width: 100%;
+  height: 35px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+ 
+}
+
+.cmnt{
+  width: 100%;
+  height: 35px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+
+img {
+  max-width: 100%;
+  border: 0;
+  width: 100%;
+}
+
+.ctx{
+  margin: 10px 0px 0px 10px;
+}
+
+.lbl{
+ 
+     /* margin-left: 151px; */
+     float: right;
+ 
+  
+}
+
+.lbl1ar{
+
+  margin: 2px 4px 0px 10px;
+    margin-left: 151px;
+    float:right;
+    direction: rtl;
+
+}
+
+
+.tfar{
+   direction: rtl;
+}
+
+.dsar{
+   direction: rtl;
+}
+
+.lbl1fr{
+
+  margin: 2px 4px 0px 10px;
+  margin-right: 151px;
+  float: left;
+  
+}
+
+.gn{
+  margin-top: 4px;
+  width: 97%;
+  margin-bottom: 10px;
+  height: 48px;
+  margin: 10px 10px 12px 4px;
+}
+
+.retour{
+  float: left;
+  width: 35px;
+  margin: 12px 0px 0px 12px;
+}
+
+.flex{
+  margin-top: 0px;
+  display:flex;
+  justify-content: center;
+}
+
+.img-box{
+  height: 145px;
+  width: 100%;
+  margin: 48px 0px 0px 0%;
+  text-align: center;
+
+}
+
+.titrH1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Varela';
+}
+
+
+
+
+#header_logo {
+  width: 35px;
+ 
+    margin-right: 5px;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: right;
+  }
+
+
+  #ar{
+    width: 35px;
+ 
+    margin-right: 5px;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: right;
+  }
+
+  #fr{
+    width: 35px;
+ 
+    margin-right: 5px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ 
+  }
+
+  #en{
+    width: 35px;
+ 
+    margin-right: 5px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+  }
+
+  .icNar{
+    float: left;
+    margin-top: 14px;
+    margin-left: 5px;
+
+  }
+
+  .icNfr{
+    float: right;
+    margin-right: -313px;
+    margin-top: 14px;
+  }
+
+  .icNen{
+    float: right;
+    margin-right: -290px;
+    margin-top: 14px;
+  }
+
+  ion-toolbar{
+    --background: #f5f6f9;
+    border-bottom: 1px solid #008a37;
+  }
+
+  .h{
+    color: black;
+    font-size: 22px;
+    margin-right: 2px;
+    float: right;
+    font-family: Varela;
+  }
+
+
+  .ar{
+    color: black;
+    font-size: 22px;
+    margin-right: 2px;
+    float: right;
+    font-family: Varela;
+  }
+
+  h1.fr{
+    color: black;
+    font-size: 17px;
+    margin-right: 24px;
+    float: right;
+    font-family: Varela;
+  }
+
+
+  h1.en{
+    color: black;
+    font-size: 17px;
+    margin-right: 90px;
+    float: right;
+    font-family: Varela;
+  }
+
+
+
+
+
+  .gal{
+
+    width: 48%;
+    float: left;
+    margin: 0 8px 19px 0;
+  }
+
+  .cam{
+
+    width: 48%;
+    float: right;
+    margin: 0px 0px 10px 0px;
+  }
+
+
+
+
+  .imgHmd{
+    height: 168px;
+    width: 80%;
+    /* margin: 0 2px; */
+    top: 0px;
+   
+    margin: 0px 0px 10px 0px;
+  }

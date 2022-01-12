@@ -1,0 +1,40 @@
+﻿{
+  "HOME": {
+    "title": "direction générale de la sureté nationale",
+    "confirmation": "Avec Succes",
+    "lng": "Langue",
+    "rac": "fr",
+    "detail":"details",
+    "home": {
+      "cmsrs": "Commissariats ",
+      "cmsrs1": "Commissariat le plus proche ",
+      "mbls": "Postes mobile",
+      "titreAv": "Avis",
+      "tab1": "Acceuil",
+      "tab2": " Manuel du citoyen",
+      "tab3": "À propos",
+      "det": "Partager",
+      "dist":"distance"
+
+    },
+ 
+    "Form": {
+      "titre": "Reclamation",
+      "kil":"Km",
+      "telephone": "telephone",
+      "pos": "position",
+      "genre": "Genre du crime",
+      "select": "Choix",
+      "opt1": "Vol",
+      "opt2": "feu",
+      "opt3": "Incendi",
+      "opt4": " Altercation",
+      "opt5": "Caùbrilage",
+      "opt6": "Autres",
+      "cam": "Camera",
+      "gal":" Gallery",
+      "cmnt":"Commentaire",
+      "submit": "Envoyer"
+    }
+  }
+}

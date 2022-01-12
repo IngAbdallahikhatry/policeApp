@@ -1,0 +1,94 @@
+
+@font-face {   
+    font-family: 'Varela';    //This is what we are going to call
+    src: url('/assets/Amiri/Amiri-Bold.ttf');
+  }
+  
+
+  ion-content{
+      --background:#36abe0;
+    
+  }
+
+
+  .content{
+    background: #f4f5f8;
+    margin: 3% 8%;
+    height: 54px;
+    box-shadow: 0px 1px 5px 0px #4fa432;
+    border-radius: 14px;
+    padding: 3px 9px 0px 0px;;
+    
+  }
+  .phone {
+     text-align: right;
+      color: black;
+     
+  }
+  .libelle{
+  
+    top: 40%;
+    /* margin: 6px; */
+    color: black;
+    text-align: right;
+  }
+  .ic{
+    margin: 3px 10px -1px -20px;
+    position: absolute;
+  }
+  .foot{
+    background-color: red;
+    width: 100%;
+    padding: 0% 10%;
+    height: 10%;
+    text-align: center
+  }
+  .titrH1{
+      color:black; 
+      text-align: center;
+      margin: 8% 0px 2px 0px;
+  }
+    .test1{
+      color: #f5f6f9;
+      height: 11%;
+      width: 80%;
+      border-radius: 10px;
+      box-shadow: 1px 1px 1px 1px;
+      box-shadow: 7px red;
+      box-shadow: 2px 2px -4px 2px black;
+      background: #fff;
+       position: absolute; 
+      margin: -12% 10% 0% 10%;
+    }
+  
+  
+  
+    #header_logo {
+      width: 13%;
+   
+      margin-right: 5px;
+      float: right;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      float: right;
+    }
+  
+  
+    ion-toolbar{
+      --background: #f5f6f9;
+      border-bottom: 1px solid #008a37;
+    }
+  
+    .h{
+      color: black;
+      font-size: 22px;
+      margin-right: 2px;
+      float: right;
+      font-family: Varela;
+    }
+  
+  
+  
+  /////////////////////////@at-root
+  
+  

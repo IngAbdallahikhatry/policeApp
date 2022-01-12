@@ -1,0 +1,81 @@
+
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+   
+   
+    <img  id="{{'HOME.rac' | translate }}"   src="assets/images/logoPoliceM.png">
+  
+    <h1 class="{{'HOME.rac' | translate }}">{{'HOME.title' | translate }}</h1>
+ 
+<ion-icon class="icN{{'HOME.rac' | translate }}" (click)="lngs($event)" name="ellipsis-vertical-outline"  style="height: 30px; width: 15px;"></ion-icon>
+   
+
+     </ion-toolbar>
+</ion-header>
+<ion-content>
+  <img  class="retour"   src="assets/images/Image1.png" (click)="back()">
+<div class="glob">
+<ion-list lines="full" class="formul">
+  <form  [formGroup]="MessageForm" (ngSubmit)="AjoutM(MessageForm.value)">
+
+
+    <h1  class="titrH1">{{'HOME.Form.titre' | translate }}</h1>
+
+    <ion-label class="lbl1{{'HOME.rac' | translate }}"> {{'HOME.Form.genre' | translate }} :</ion-label>
+    <select id="genre" formControlName="genre" class="gn" dir="rtl" >
+      <option value="" disabled selected dir="rtl">{{'HOME.Form.select' | translate }}</option>
+      <option value="vol" selected dir="rtl"> {{'HOME.Form.opt1' | translate }}</option>
+      <option value="feu" dir="rtl">{{'HOME.Form.opt2' | translate }}</option>
+      <option value="enlévement" dir="rtl">{{'HOME.Form.opt3' | translate }}</option>
+      <option value="Altercation" dir="rtl">{{'HOME.Form.opt4' | translate }}</option>
+      <option value="cambriolage" dir="rtl">{{'HOME.Form.opt5' | translate }}</option>
+      <option value="autre" dir="rtl">{{'HOME.Form.opt6' | translate }}</option>
+    </select>
+  
+ 
+      <ion-button (click)="addPhoto('library')" color="tertiary" expand="block" class="gal">
+        <ion-icon name="image" slot="start"></ion-icon>
+        {{'HOME.Form.cam' | translate }}
+      </ion-button>
+      
+      <ion-button (click)="addPhoto('camera')" color="secondary" expand="block" class="cam">
+        <ion-icon name="camera" slot="start"></ion-icon>
+        {{'HOME.Form.gal' | translate }}
+      </ion-button>
+
+      
+        <div class="img-box" *ngIf="image1!=''">
+          <img [src]="image1" class="imgHmd"  >
+        </div>
+     
+
+<br>
+
+ <br>
+  <ion-item class="cadre">
+    <ion-label position="floating" class="tf{{'HOME.rac' | translate }}">  {{'HOME.Form.telephone' | translate }}  </ion-label>
+    <ion-input  formControlName="phone" type="text" required style="margin-top: 10px;"> </ion-input>
+  </ion-item>
+  
+  
+  <br>
+  <ion-item class="cadre1">
+    <ion-label position="floating" class="ds{{'HOME.rac' | translate }}"> {{'HOME.Form.cmnt' | translate }}</ion-label>
+    <ion-textarea formControlName="description" row="10"  dir="rtl"> </ion-textarea>
+  </ion-item>
+
+
+<ion-row style="margin-bottom: 100px;">
+  <ion-col>
+    <ion-button type="submit" color="primary" shape="full" expand="block" [disabled]="MessageForm.invalid" >{{'HOME.Form.submit' | translate }}</ion-button>
+  </ion-col>
+</ion-row>
+
+  </form>
+</ion-list>
+</div>
+</ion-content>
+
+
+
+

@@ -1,0 +1,54 @@
+
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+   
+    
+    <img  id="{{'HOME.rac' | translate }}"   src="assets/images/logoPoliceM.png">
+  
+    <h1 class="{{'HOME.rac' | translate }}">{{'HOME.title' | translate }}</h1>
+ 
+<ion-icon class="icN{{'HOME.rac' | translate }}" (click)="lngs($event)" name="ellipsis-vertical-outline"  style="height: 30px; width: 15px;"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <img  class="retour"   src="assets/images/Image1.png" (click)="back()">
+
+  <h1  class="titrH1">{{'HOME.home.titreAv' | translate }}</h1>
+  <ion-card  *ngFor=" let item of mydata" class="content" >
+ 
+      
+<div >
+    <div class="title" id="glob{{'HOME.rac' | translate }}">
+    {{item.titre}}
+    </div> 
+    <br>
+    <div class="detail"  id="glob{{'HOME.rac' | translate }}">
+     {{item.short}}
+     
+     </div> 
+
+    <div  id="dateg{{'HOME.rac' | translate }}">
+     {{item.date}}
+    </div> 
+
+    <div  id="detgl{{'HOME.rac' | translate }}">
+      <a (click)="detail(item)" >
+        {{'HOME.detail' | translate }}
+       </a>
+    </div>
+  <br>
+<br>
+
+
+</div>
+  </ion-card>
+    
+</ion-content>
+
+
+
+
+
+
+
